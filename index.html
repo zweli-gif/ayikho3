@@ -1,0 +1,37 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayikho A/B Test</title>
+  <link rel="stylesheet" href="assets/app.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="inner">
+      <div style="font-weight:800;letter-spacing:.2px">Ayikho</div>
+      <span class="badge" id="topbarAB">AB: ?</span>
+      <span class="badge" id="topbarMode">?</span>
+      <span class="badge" id="topbarVid">?</span>
+      <div style="margin-left:auto" class="badge">Hi, <span id="topbarName">Mntase</span></div>
+    </div>
+  </div>
+
+  <main id="app"></main>
+
+  <div class="footerNav">
+    <div class="inner">
+      <a class="navItem" data-nav="start" href="#/start">Start</a>
+      <a class="navItem active" data-nav="home" href="#/home">Modules</a>
+      <a class="navItem" data-nav="data" href="#/data">Data</a>
+    </div>
+  </div>
+
+  <script src="js/ab.js"></script>
+  <script src="js/tracker.js"></script>
+  <script src="content/simple.js"></script>
+  <script src="content/detail.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
